@@ -1,0 +1,126 @@
+* {
+    padding: 0px;
+    background-color: rgb(189, 78, 78);
+    color: white;
+    font-family: 'Noto sans mono', monospace; 
+    text-align: center;
+}
+
+
+
+.section {
+    padding: 10px;
+    margin: auto;
+    width: 650px;
+}
+
+.game-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: fit-content;
+    width: 650px;
+    margin: 100px auto; 
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.timer-div{
+    background-color: rgb(230, 255, 183);
+    width: 175px;
+    height: 100px;
+    color: black;
+    font-size: 35px;
+}
+
+.timer-paragraph{
+    display: inline;
+    color: black;
+    background-color: rgb(230, 255, 183);
+}
+
+.time-out{
+    display: block;
+    background-color: black;
+    color: burlywood;
+    font-size: 85px;
+    margin: 5px;
+    height: fit-content;
+    width: fit-content;
+    opacity: 0;
+}
+
+.reload-button{
+    padding: 5px; 
+}
+
+.reload-button:hover{
+    border-right:2px burlywood solid;
+    border-bottom: 5px burlywood solid;
+}
+
+.you-win{
+    display: block;
+    background-color: black;
+    color: burlywood;
+    font-size: 85px;
+    margin: 5px;
+    height: fit-content;
+    width: fit-content;
+    opacity: 0;
+}
+
+.level-count{
+    background-color: rgb(184, 255, 255);
+    width: 175px;
+    height: 100px; 
+    color: black;
+    font-size: 35px;
+    
+}
+
+.level-count-paragraph{
+    display: inline;
+    background-color: rgb(184, 255, 255);
+    color: black;
+}
+
+.random-word-div{
+    display: inline;
+    background-color: lemonchiffon;
+    height: 100px;
+    width: 300px;
+    font-size: 35px;
+    color: black;
+}
+
+.random-word-display{
+    background-color: lemonchiffon;
+    color: black;
+    
+}
+
+.input-answer{
+    background-color: black;
+    height: 150px;
+    width: 650px;
+}
+
+
+
+@media (max-width:640px){
+    .section {
+        width: auto;
+    }
+    .input-answer{
+        width: auto;
+    }
+    .game-section{
+        width: auto;
+    }
+}
+
+
+
